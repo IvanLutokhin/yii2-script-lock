@@ -1,0 +1,27 @@
+{
+    "name": "fwext/yii2-script-lock",
+
+    "type": "yii2-extension",
+
+    "description": "The lock script for the Yii framework",
+    "keywords": ["yii2", "cron", "script", "lock", "helper"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/faenor48/yii2-script-lock"
+    },
+    "authors": [
+        {
+            "name": "Ivan Lutokhin",
+            "email": "ivan.lutokhin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fwext\\ScriptLock\\": ""
+        }
+    }
+}
